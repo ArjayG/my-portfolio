@@ -14,7 +14,7 @@ section {
 
 #hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
-    url("img/hero.jpg");
+    url("hero.jpg");
   padding: 200px 0;
   background-size: cover;
   background-attachment: fixed;
