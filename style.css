@@ -1,0 +1,158 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+body {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  background-color: #41454d;
+  width: 100%;
+  position: relative;
+}
+
+section {
+  padding: 35px;
+  color: #ffffff8f;
+}
+
+#hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+    url("img/hero.jpg");
+  padding: 200px 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: auto;
+}
+
+.headshot img {
+  border-radius: 50%;
+  border: solid 20px rgba(255, 255, 255, 0.2);
+  width: 30vh;
+  margin-bottom: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.headshot img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+h1 {
+  font-size: clamp(4.5rem, 3vw, 5rem);
+  color: white;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h6 {
+  font-size: 2rem;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-style: oblique;
+}
+
+h2 {
+  font-size: clamp(3rem, 4vw, 4rem);
+  color: whitesmoke;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+#skills-section,
+#contact-section {
+  background-color: #2b3035;
+}
+
+#footer-section {
+  color: #ffffff;
+  background-color: #2b3035;
+}
+
+.navbar-collapse a {
+  font-size: 2rem;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#mission-target,
+#skills-target,
+#contact-target,
+#inspiration-target {
+  position: relative;
+  top: -100px;
+}
+
+.skills-icon {
+  font-size: 6rem;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.skills-icon:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.card {
+  position: relative;
+  transition: 0.1s ease-in-out;
+}
+
+#skills-section .card:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  transition: 0.1s ease-in-out;
+}
+
+.contact-icon {
+  font-size: 4rem;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.contact-icon:hover {
+  color: #41454d;
+}
+
+#mission-section .bold {
+  font-family: "Tiny5", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.my-mission {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#mission-section .my-mission .bold {
+  font-family: "Nunito", sans-serif;
+  font-size: 14pt;
+}
+
+.card-body a {
+  font-weight: bold;
+}
